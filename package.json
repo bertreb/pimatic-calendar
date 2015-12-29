@@ -10,7 +10,6 @@
   ],
   "version": "0.8.0",
   "homepage": "http://github.com/pimatic/pimatic",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git://github.com/pimatic/pimatic-calendar.git"
