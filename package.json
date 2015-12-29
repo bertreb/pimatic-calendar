@@ -1,0 +1,29 @@
+{
+  "name": "pimatic-calendar",
+  "description": "The plugin description",
+  "author": "Oliver Schneider <oliverschneider89+sweetpi@gmail.com> (http://sweetpi.de)",
+  "main": "calendar",
+  "files": [
+    "calendar.coffee",
+    "README.md",
+    "calendar-config-schema.coffee"
+  ],
+  "version": "0.8.0",
+  "homepage": "http://github.com/pimatic/pimatic",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pimatic/pimatic-calendar.git"
+  },
+  "configSchema": "calendar-config-schema.coffee",
+  "dependencies": {
+    "ical": "git+https://github.com/sweetpi/ical.git"
+  },
+  "peerDependencies": {
+    "pimatic": "0.8.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
