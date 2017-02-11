@@ -5,6 +5,7 @@
   "main": "calendar",
   "files": [
     "calendar.coffee",
+    "LICENSE",
     "README.md",
     "calendar-config-schema.coffee"
   ],
@@ -19,7 +20,7 @@
     "ical": "git+https://github.com/sweetpi/ical.git"
   },
   "peerDependencies": {
-    "pimatic": "0.8.*"
+    "pimatic": "0.9.*"
   },
   "engines": {
     "node": ">0.8.x",
